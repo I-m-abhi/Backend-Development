@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>EJS</title>
+</head>
+<body>
+  <h1>To add HTML, firstly you have to install ejs</h1>
+  <p>npm i ejs</p>
+  <h2>Create a folder named views at parent level</h2>
+  <p>Inside views make a index.ejs file which will work as html file</p>
+  <h3>Hello from HTML through index.ejs</h3>
+
+
+  <form 
+    action="/get-form-data" 
+    method="post"
+    >
+    <input
+     type="text"
+     placeholder="Enter username"
+     name="username"
+     >
+    <input 
+    type="email"
+    placeholder="Enter email"
+    name="email"
+    >
+    <input 
+    type="password"
+    placeholder="Enter password"
+    name="password"
+    >
+    <button>Submit Now</button>
+  </form>
+
+  <script src="index.js"></script>
+</body>
+</html>
